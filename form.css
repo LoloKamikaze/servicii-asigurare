@@ -1,0 +1,95 @@
+@font-face {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    src: url();
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.headerr {
+    display:flexbox;
+}
+
+.telefoane {
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    flex-direction:row;
+}
+
+
+
+.logo {
+    width:150px;
+    height:50px;
+    margin-left:50px;
+}
+.header {
+    display:flex;
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color:white;
+}
+
+.header2 {
+
+    align-items:center;
+    justify-self: flex-end;
+}
+
+.header1 {
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.telefoane {
+    display:flex;
+    align-items:center;
+    margin-left:900px;
+}
+
+.telefon,
+.contact {
+    margin-right:15px;
+    margin-left:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+
+}
+
+.head {
+    background-color:black;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.acasa {
+    padding-top:30px;
+    padding-bottom:30px;
+    color:white;;
+    font-size:larger;
+    border-radius:15px;
+    margin-left:25px;
+}
+
+#questions {
+    display:flex;
+}
+
+.intrebari {
+    color:white;
+    font-size:larger;
+    margin-right:25px;
+}
+
+#vehicul {
+    color:white;
+    font-size:larger;
+    font-weight:bolder;
+}

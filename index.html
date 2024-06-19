@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <div class="header">
+        <div id="loggo">
+    <<img class="logo" src="code/usm-modular-furniture-logo.jpg" alt="logo">>
+        </div>
+        <div class="header2">
+    <div class="header1">asig </div>
+    <div class="header2">servicii de asigurari</div>
+        </div>
+        <div class=telefoane>
+            <div class="contact">Contacteaza-ne:</div>
+        <div class="telefon">(022) 991 992</div>
+        <div class="telefon">(022) 992 993</div>
+        <div class="telefon">(022) 993 994</div>
+        </div>
+    </div>
+</head>
+<body>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="code/pngtree-real-estate-banner-background-a-person-holding-a-key-in-front-image_13523352.png" style="width:100%">
+      <div class="text">Asigurare pe casa</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="code/360_F_308445331_ZZinysRse5xOZacNTnoQqG24TAy7ftZ5.jpg" style="width:100%">
+      <div class="text">Asigurare pe masina/carte verde</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="code/home-banner.jpg" style="width:100%">
+      <div class="text">Asigurare pe viata</div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <script>
+    let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); 
+}
+  </script>
+<div id="backround">
+  <div id=comanda>
+  <div class="comanda">Comanda asigurare online</div>
+  </div>
+  <div class="icons"> 
+    <a href="info.html">
+    <img class="icon" src="code/car.png" >
+    </a>
+    <a href="">
+    <img class="icon" src="code/cardiogram.png">
+    </a>
+    <a href="">
+    <img class="icon" src="code/house.png">
+    </a>
+    <a href="">
+    <img class="icon" src="code/road-with-broken-line.png">
+    </a>
+  </div>
+  <div class="subcomanda">
+    <div class="textt1">
+    <div class="textt">Asigurare pe autovehicul</div>
+    </div>
+    <div class="textt2">
+    <div class="textt">Asigurare medicala</div>
+    </div>
+    <div class="textt3">
+    <div class="textt">Asigurare pe locuinta</div>
+    </div>
+    <div class="textt4">
+    <div class="textt">Carte verde</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
