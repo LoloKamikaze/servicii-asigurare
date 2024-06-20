@@ -31,5 +31,80 @@
         <div class="intrebari">Intrebari frecvente si raspunsuri ➡</div>
         </a>
     </div>
+    <div class="gray">
+        Ce presupune asigurarea imobilului şi a conţinutului?
+        <div id="imobil">
+            Este asigurarea facultativă a bunurilor imobile (casă, apartament ş.a.) şi a altor bunuri (mobila, tehnica, finisajul ş.a.) pentru riscurile: incendiu, explozie, avarii la sistemele de comunicaţii, inundaţii, acţiuni ilicite ale terţelor persoane, fenomene naturale, căderea aparatelor pilotate ş.a.
+        </div>
+        Ce înseamnă franşiza?
+        <div id="fransiza">
+            Franşiza – este indicată în contractul de asigurare şi este o limită pentru care asiguratorul nu poartă răspundere. Franşiza este o componentă a contractului de asigurare prin care asiguratul participă la despăgubire şi este aplicată de regulă în cazurile când prejudiciile sânt nesemnificative. Modificarea franşizei poate influinţa micşorarea primei de asigurare.Franşiza deductibilă - în toate cazurile se deduce din mărimea prejudiciilor. Franşiza poate fi stabilită procentual din suma asigurată sau în mărime absolută.
+        </div>
+        Pot asigura colecţia mea de monede vechi?
+        <div id="monede">
+            E posibil dar condiţiile de asigurare şi procedura de încheiere a contractului diferă de cazurile ordinare. În asemenea cazuri sânt necesare acte suplimentare care confirmă valoarea acestor bunuri, descrierea lor detaliată, poze, precum şi verificarea modului de păstrare a lor. Poate fi necesară şi implicarea unui expert.
+        </div>
+        Ce acte trebuie să prezint pentru încheierea unui Contract de asigurare a apartamentului/vilei?
+        <div id="apartament">
+            Pentru încheierea unui Contract de asigurare este necesar să prezentaţi acte care atestă identitatea Dumneavoastră, interesul patrimonial, dreptul de proprietate asupra bunurilor (dreptul de posesie şi dispoziţie), cererea de asigurare şi acte ce indică valoarea bunurilor ce urmează a fi asigurate.
+        </div>
+        Care factori influenţează asupra preţului asigurării?
+        <div id="pret">
+            Asupra preţului asigurării influenţează mai mulţi factori. Daca casa are o vechime mai mare şi nu au fost efectuate reparaţii de mai mult timp atunci prima de asigurare poate fi mai mare. De asemenea preţul poate creşte şi in cazul existenţei unor pereţi din lemn, sau pentru apartamente amplasarea la primul etaj – poate fi lipsa gratiilor. Iar în cazul existenţei alarmelor sau a uşilor din metal preţul va fi mai mic.
+        </div>
+        Care sânt restricţiile ce nu permit asigurarea imobilului?
+        <div id="restrictii">
+            Nu vor fi asigurate apartamentele aflate în blocurile care urmează a fi demolate; apartamente care urmează a fi confiscate, sechestrate sau care urmează a fi demolate prin decizia autorităţilor publice, clădiri vechi (uzura mai mare de 75%)
+        </div>
+        Care sunt riscurile ce pot fi asigurate?
+        <div id="riscuri">
+            Compania noastră oferă posibilitatea de a asigura bunurile pentru riscurile de incendiu, inundaţii, acţiuni ilicite ale terţelor persoane, avariilor accidentale şi calamităţilor naturale. Asta va contribui la liniştea Dumneavoastră prin compensarea prejudiciilor la survenirea cazului asigurat. La solicitarea Dumneavoastră vom asigura următoarele bunuri:
+
+            -Apartamentul/casa cu finisajul, utilajul şi reţelele inginereşti;
+            -Doar construcţia;
+            -Conţinutul (mobilă, tehnică de uz casnic, utilaj, tehnică de calcul);
+            -Răspunderea civilă generală pentru prejudiciile cauzate vecinilor.
+        </div>
+        Ce se întâmplă când este mărită valoarea de asigurare?
+        <div id="valoare">
+            Valoarea de asigurare a bunurilor, indicată în contract poate fi contestată de către Asigurator în cazul când a fost indus in eroare şi nu au evaluate bunurile. În cazul dat contractul de asigurare poate fi declarat nevalabil.
+        </div>
+
+
+    </div>
+    <div class="bottom">
+        Nu ati gasit un raspuns potrivit ?
+        <form action="connect.php" method="post">
+            <div class="form-group">
+                <label for="firstName">Nume</label>
+                <input type="text" class="form-control" id="firstName" name="firstName">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Prenume</label>
+                <input type="text" class="form-control" id="lastName" name="lastName">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Nr. de telefon</label>
+                <input type="number" class="form-control" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="question">Intrebare</label>
+                <input type="text" class="form-control" id="question" name="question">
+            </div>
+            <div class="form-group">
+                <label for="contact">Doresc sa fiu contactat</label>
+                <div class="radio-inline">
+                    <label for="latelefon" class="radio-inline"><input type="radio" id="latelefon" name="contact" value="latelefon">La telefon</label>
+                </div>
+                <div class="radio-inline">
+                    <label for="pemail" class="radio-inline"><input type="radio" id="pemail" name="contact" value="pemail">Pe e-mail</label>
+                </div>
+            </div>
+            <button type="submit" id="button">Trimite</button>
+        </form>
 </body>
 </html>
